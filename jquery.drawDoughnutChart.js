@@ -232,7 +232,7 @@
     }
     function drawDoughnutText(animationDecimal, segmentTotal) {
       // overwrite Total
-      if (settings.overwriteTotal) {
+      if (settings.overwriteTotal !== false) {
         segmentTotal = settings.overwriteTotal;
       };
       $summaryNumber
